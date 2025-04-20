@@ -1,0 +1,14 @@
+# Ignore secret environment variables
+.env
+
+# Ignore Firebase credentials
+firebase-key.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+#Ignore Streamlit cache
+.streamlit/cache/
+.secrets.toml
+.streamlit/secrets.toml
